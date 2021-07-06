@@ -1,0 +1,32 @@
+{
+  "name": "writer",
+  "version": "1.0.0",
+  "description": "Management for Writing Services Provider",
+  "main": "app.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/verillospur/writer.git"
+  },
+  "keywords": [
+    "writer",
+    "writing",
+    "write"
+  ],
+  "author": "BS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/verillospur/writer/issues"
+  },
+  "homepage": "https://github.com/verillospur/writer#readme",
+  "dependencies": {
+    "date-fns": "^2.16.1",
+    "eslint": "^7.18.0",
+    "random": "^3.0.6",
+    "string-reader": "^0.9.0",
+    "uuid": "^8.3.2"
+  }
+}
