@@ -36,7 +36,7 @@ approach can be used:
 >     - section 2
 >         - files
 >         - sub-section 2.1
->             - files
+>             - files  
 >     etc
 
 Each node in the tree can be assigned unlimited meta data 
