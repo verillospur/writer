@@ -6,10 +6,10 @@ https://github.com/verillospur/writer.git
 
 # abstract
 Need to keep track /records of 
-    - work produced (unsolicited/job)
-    - jobs undertaken (underway/completed)
-    - payments (issued/pending/paid)
-    - clients
+  > - work produced (unsolicited/job)
+  > - jobs undertaken (underway/completed)
+  > - payments (issued/pending/paid)
+  > - clients
 
 Clients should be represented as contact information.
 
