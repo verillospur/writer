@@ -28,16 +28,16 @@ A job/work can be just a collection of files.
 Alternatively a more structured organisational
 approach can be used:
 
-- job/work
-    - section 1
-        - files
-        - sub-section 1.1
-            - files
-    - section 2
-        - files
-        - sub-section 2.1
-            - files
-    etc
+> - job/work
+>     - section 1
+>         - files
+>         - sub-section 1.1
+>             - files
+>     - section 2
+>         - files
+>         - sub-section 2.1
+>             - files
+>     etc
 
 Each node in the tree can be assigned unlimited meta data 
 fields (name/value pairs).
