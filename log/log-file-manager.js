@@ -31,8 +31,10 @@ const checkAll = () => {
   }
 
   // build path
-  const sep = config.log.log_file_path_seperator;
-  const filePath = `${dirPath}${sep}${fname}`;
+  // const sep = config.log.log_file_path_seperator;
+  // const filePath = `${dirPath}${sep}${fname}`;
+  const path = require('path');
+  const filePath = path.join(dirPath, fname);
 
   // check file exists
   if (!framework.filesystem.checkExists(filePath)) {

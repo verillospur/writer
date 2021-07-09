@@ -11,7 +11,7 @@
 const main = () => {
     
   const logger = require('./log');
-  logger.log("This had better work, Gpd-DAMNIT!");
+  logger.log("Serious psychological disturbances...");
 
 };
 

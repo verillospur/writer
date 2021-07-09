@@ -18,10 +18,9 @@ const config = () => {
         log_file_dir: 'C:\\dev\\writer\\_logs',
         log_file_name_format: 'yyyyMMdd',
         log_file_name_ext: '.log',
-        log_file_path_seperator: '\\',
 
         // messages
-        log_message_prefix_format: 'yyyyMMdd-hhmmss⏩▶ ',
+        log_message_prefix_format: 'yyyyMMdd-HHmmss ▶ ',
 
         // console
         always_write_to_console: true,
