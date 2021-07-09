@@ -24,7 +24,7 @@ duration, start/end dates, etc.
 Externally created files should be either referenced 
 or stored under each job/work. 
 
-A job/work can be just a collection of files. 
+A job/work can be just a collection of files.  
 Alternatively a more structured organisational
 approach can be used:
 
