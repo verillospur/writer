@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><%= title %></title>
+        <link rel='stylesheet' href='/stylesheets/style.css' />
+        <script src="javascripts/common.js" lang="text/javascript"></script>
+    </head>
+<body>
+    <form action="/catchupload" method="post" enctype="multipart/form-data">
+        <p>
+            <label for="fileupload">
+                Select the data file to import, and click Upload.
+            </label>
+        </p>
+        <p><input name="fileupload" id="fileupload" type="file" /></p>
+        <p><input type="submit" value="Upload" /></p>
+        <p>&nbsp;</p>
+        <p><a href="/catchupload">jump</a></p>
+    </form>
+</body>
+</html>
