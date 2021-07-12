@@ -18,8 +18,14 @@ const config = () => {
         // mongodb
         mongodb: require('../data/config'), 
 
-        // users
+        // clients
         clients: require('../clients/config'), 
+
+        // works
+        works: require('../works/config'), 
+
+        // jobs
+        // jobs: require('../jobs/config'), 
 
     };
 };

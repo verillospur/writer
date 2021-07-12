@@ -21,7 +21,7 @@ const find = (coll, query) => {
     const lg = msg => { log.log(`data.find(): ${msg}`); };
 
     const mongo = require('mongodb');
-    const client = mongo.MongoClie;
+    const client = mongo.MongoClient;
     const url = config.MongoDB_url_nodb;
 
     // return values

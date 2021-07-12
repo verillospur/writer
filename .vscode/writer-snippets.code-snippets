@@ -16,6 +16,7 @@
 	// 	"description": "Log output to console"
 	// }
 	"JS File Header": {
+		"description": "Standard file header for JS files",
 		"scope": "javascript",
 		"prefix": ["jshead","jsh"],
 		"body": [
@@ -23,7 +24,7 @@
 			"//  $0filename.js",
 			"//  ~/path/",
 			"// ",
-			"//  created:    2021-02-01",
+			"//  created:    2021-07-12",
 			"// ",
 			"//  basic description",
 			"// ",
@@ -37,9 +38,6 @@
 			"  fn: fn",
 			"};",
 			""
-
-
 		],
-		"description": "Standard file header for JS files"
 	},
 }
