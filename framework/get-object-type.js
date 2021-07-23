@@ -29,11 +29,19 @@
 */
 
 const getObjectType = obj => {
-  const ts = Object.prototype.toString.call(obj);
-  const t = ts.substr(8, (ts.length - 8 - 1));
-  return t;
+  // if (isNaN(obj)) {
+  //   return 'NaN';
+  // }
+  // else {
+    const ts = Object.prototype.toString.call(obj);
+    const t = ts.substr(8, (ts.length - 8 - 1));
+    return t;
+  // }
 };
 
+const isArray = obj => (getObjectType(obj) == 'Array');
+
 module.exports = {
-  getObjectType: getObjectType
+  getObjectType: getObjectType,
+  isArray: isArray,
 };

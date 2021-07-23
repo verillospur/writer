@@ -14,7 +14,10 @@ const config = () => {
       
         // log
         log: require('../log/config'), 
-        
+
+        // framework
+        framework: require('../framework/config'), 
+
         // mongodb
         mongodb: require('../data/config'), 
 

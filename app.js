@@ -8,11 +8,15 @@
 // 
 'use strict';
 
-const main = () => {
-    
-  const logger = require('./log');
-  logger.log("Serious psychological disturbances...");
+const _fn = () => {
 
+  const exec_path = __dirname;
+  return require('./_check-files').run(exec_path);
+
+};
+
+const main = () => {
+  return _fn();
 };
 
 console.log("Running 'main' fn()....");

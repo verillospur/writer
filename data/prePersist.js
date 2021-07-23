@@ -31,7 +31,7 @@ const checkBeforePersist = (doc, coll) => {
     //
 
     // check direct property
-    if (doc.hasOwnProperty('_id') {
+    if (doc.hasOwnProperty('_id')) {
         allCool = true;
     }
 
